@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Política de Privacidade — Olha Esse Carro Pô!</title>
+<style>
+  :root { --bg:#0f1115; --card:#171a21; --text:#f2f2f2; --muted:#a3a9b5; --accent:#ffd23f; }
+  * { box-sizing: border-box; }
+  body { margin:0; font-family:-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; background:var(--bg); color:var(--text); line-height:1.7; }
+  .wrap { max-width:640px; margin:0 auto; padding:48px 20px 80px; }
+  a { color: var(--accent); }
+  h1 { font-size:24px; margin-bottom:4px; }
+  h2 { font-size:17px; margin-top:32px; }
+  .updated { color:var(--muted); font-size:13px; margin-bottom:32px; }
+  .back { display:inline-block; margin-bottom:24px; color:var(--muted); text-decoration:none; font-size:14px; }
+  code { background:var(--card); padding:2px 6px; border-radius:4px; font-size:13px; }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <a class="back" href="./index.html">&larr; Olha Esse Carro Pô!</a>
+    <h1>Política de Privacidade</h1>
+    <p class="updated">Última atualização: 21 de setembro de 2026</p>
+
+    <p>
+      Esta política explica como o projeto "Olha Esse Carro Pô!" lida com dados ao usar
+      APIs de terceiros (TikTok Content Posting API, YouTube Data API) para publicar seu
+      próprio conteúdo.
+    </p>
+
+    <h2>1. Quem opera este projeto</h2>
+    <p>
+      Este é um projeto pessoal, operado por uma única pessoa física, sem equipe,
+      anunciantes ou parceiros com acesso aos dados descritos abaixo.
+    </p>
+
+    <h2>2. Quais dados são acessados</h2>
+    <p>
+      Ao autorizar a integração via OAuth, o projeto acessa apenas:
+    </p>
+    <ul>
+      <li>Informações básicas de perfil público (nome de exibição, avatar) — usadas
+        apenas para confirmar qual conta está autorizada;</li>
+      <li>Permissão para publicar vídeo diretamente na própria conta autorizada
+        (escopo <code>video.publish</code> do TikTok / upload de vídeo da YouTube Data API).</li>
+    </ul>
+    <p>
+      Não acessamos mensagens privadas, lista de seguidores, dados de pagamento ou
+      qualquer informação além do necessário para publicar um vídeo já pronto.
+    </p>
+
+    <h2>3. Onde os dados ficam armazenados</h2>
+    <p>
+      Os tokens de acesso OAuth (necessários para publicar sem exigir login manual a cada
+      vídeo) ficam armazenados localmente, em um computador de uso pessoal do operador do
+      projeto — nunca em um servidor de terceiros, nuvem pública ou banco de dados
+      compartilhado.
+    </p>
+
+    <h2>4. Compartilhamento de dados</h2>
+    <p>
+      Nenhum dado obtido via essas integrações é vendido, compartilhado ou usado para
+      fins de publicidade. O único uso é a publicação automática de vídeos já produzidos
+      na própria conta do criador do projeto.
+    </p>
+
+    <h2>5. Revogação de acesso</h2>
+    <p>
+      A qualquer momento, o titular da conta pode revogar o acesso do aplicativo
+      diretamente nas configurações do TikTok ou do Google/YouTube, o que invalida
+      imediatamente os tokens armazenados.
+    </p>
+
+    <h2>6. Contato</h2>
+    <p>
+      Dúvidas sobre esta política podem ser enviadas pelos canais oficiais do projeto,
+      listados na <a href="./index.html">página inicial</a>.
+    </p>
+  </div>
+</body>
+</html>
